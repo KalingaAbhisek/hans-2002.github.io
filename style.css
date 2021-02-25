@@ -29,21 +29,17 @@ body
 }
 .background
 {
+  position: relative;
+  top: 50vh;
   margin: auto;
   width: 100%;
   align-content: center;
-  position: static;
-}
-#search
-{
-  position: relative;
-  top: 270px;
-  left: 31%;
   height: 30px;
-  width: 400px;
-  border-style: none;
-  outline: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
+
 #b1
 {
   background-color: white;
@@ -52,15 +48,29 @@ body
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
-  position: relative;
+  /*position: relative;
   top: 280.5px;
-  left: 31.4%;
+  left: 31.4%;*/
   height: 30px;
   width: 40px;
   border-radius: 30px 0px 0px 30px;
   outline: none;
   border: none;
 }
+
+#search
+{
+  /*position: relative;
+  top: 270px;
+  left: 31%;*/
+  height: 30px;
+  width: 400px;
+  border-style: none;
+  outline: none;
+  margin: 0;
+  padding: 0%;
+}
+
 #b2
 {
   background-color: white;
@@ -69,9 +79,9 @@ body
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
-  position: relative;
+  /*position: relative;
   top: 280.5px;
-  left: 30.7%;
+  left: 30.7%;*/
   height: 30px;
   width: 40px;
   border-radius: 0px 30px 30px 0px;
