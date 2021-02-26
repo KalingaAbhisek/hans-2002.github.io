@@ -5,6 +5,13 @@ function search()
     window.open(site,'_blank');
 }
 
+document.addEventListener("keydown", function(event) 
+    {
+        if (event.code === 'Enter') {
+            search();
+        }
+    });
+
 function startDictation() 
 {
     if (window.hasOwnProperty('webkitSpeechRecognition')) 
